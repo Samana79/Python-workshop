@@ -1,0 +1,26 @@
+
+
+
+
+input=input("enter your name :")
+age=int(input)
+print(f"my name is :{name}")
+print(type(name))
+
+
+
+input=input("enter your age:")
+age=int(input)
+print(f"my age is :{age}")
+print(type(age))
+
+print(float(age))
+
+print(bool(age))
+
+product_list={"speaker","laptop"}
+
+
+
+
+

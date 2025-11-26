@@ -1,0 +1,77 @@
+
+products_list = [
+    "Laptop", "Mobile", "Headphones", "Keyboard", "Mouse",
+    "Charger", "Camera", "Smartwatch", "Tablet", "Speaker"
+]
+
+print("\nLIST EXAMPLE")
+print("Original List:", products_list)
+
+products_list.append("Printer")
+print("After append:", products_list)
+
+products_list.insert(2, "USB Cable")
+print("After insert at index 2:", products_list)
+
+products_list.remove("Mouse")
+print("After remove 'Mouse':", products_list)
+
+products_list.pop()
+print("After pop():", products_list)
+
+products_list.sort()
+print("After sort():", products_list)
+
+products_list.reverse()
+print("After reverse():", products_list)
+
+products_tuple = (
+    "Laptop", "Mobile", "Headphones", "Keyboard", "Mouse",
+    "Charger", "Camera", "Smartwatch", "Tablet", "Speaker"
+)
+
+print("\nTUPLE EXAMPLE")
+print("Tuple:", products_tuple)
+print("Count of 'Laptop':", products_tuple.count("Laptop"))
+print("Index of 'Camera':", products_tuple.index("Camera"))
+
+
+products_set = {
+    "Laptop", "Mobile", "Headphones", "Keyboard", "Mouse",
+    "Charger", "Camera", "Smartwatch", "Tablet", "Speaker"
+}
+
+print("\nSET EXAMPLE")
+print("Original Set:", products_set)
+
+products_set.add("Printer")
+print("After add:", products_set)
+
+products_set.discard("Camera")
+print("After discard 'Camera':", products_set)
+
+products_dict = {
+    1: "Laptop",
+    2: "Mobile",
+    3: "Headphones",
+    4: "Keyboard",
+    5: "Mouse",
+    6: "Charger",
+    7: "Camera",
+    8: "Smartwatch",
+    9: "Tablet",
+    10: "Speaker"
+}
+
+print("\nDICTIONARY EXAMPLE")
+print("Original Dictionary:", products_dict)
+
+print("Get key 3:", products_dict.get(3))
+print("All Keys:", products_dict.keys())
+print("All Values:", products_dict.values())
+
+products_dict.update({11: "Printer"})
+print("After update:", products_dict)
+
+products_dict.pop(5)
+print("After pop key 5:", products_dict)

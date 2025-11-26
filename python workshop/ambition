@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+name=input("enter your name:")
+print(f"my name is:{name}")
+
+
+age=input("enter your age:")
+print(f"my age is:{age}")
+
+phone=input("enter your phone:")
+print(f"my phone is:{phone}")
+
+
+ambition=input("enter your ambition:")
+print(f"my ambition is:{ambition}")
+
+education=input("enter your education:")
+print(f"my education is:{education}")
+
+
+percentage=input("enter your percentage:")
+print(f"my percentage is:{percentage}")
